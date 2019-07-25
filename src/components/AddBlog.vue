@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div id="add-blog">
    <h2>添加博客</h2>
    <form v-if="!submmited">
@@ -8,7 +8,7 @@
        <label>博客内容</label>
       <textarea v-model="blog.content"></textarea>
 
-      <div id="checkboxes">
+      <div id="checkboxes">    
         <label>Vue.js</label>
         <input type="checkbox" value="Vue.js" v-model="blog.categories">
          <label>Node.js</label>
